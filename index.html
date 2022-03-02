@@ -1,10 +1,50 @@
 <!DOCTYPE html>
+<!--va a registrar su fecha de nacimiento, , 
+. html-->
 <html>
 <body>
 <title> Pruebas by Sergio Morejon </title>
 <h1>TITULO</h1>
 <p>texto</p>
-<p>mas texto</p>
+<p>Introduce tus datos</p>
+
+<form>
+    <label for="fname">Nombre:</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label for="lname">Apellidos:</label><br>
+    <input type="text" id="lname" name="lname"><br><br>
+
+
+<label for="fname">Género:</label><br>
+    <input type="radio" id="hombre" name="genero" value="hombre">
+    <label for="hombre">hombre</label><br>
+    <input type="radio" id="mujer" name="genero" value="mujer">
+    <label for="mujer">mujer</label><br>
+    <input type="radio" id="nobinario" name ="nobinario" value = "nobinario">
+    <label for="nobinario">nobinario</label><br><br>
+
+    <label for"fname">Fecha Nacimiento</label>
+    <input type="date" id="fechanacimiento">
+
+    <label for="fname">Numero de telefono:</label><br>
+    <input type="tel" id="tel" value="tel"><br>
+
+    <label for="fname">Correo:</label><br>
+    <input type="email" id = "email"><br><br>
+
+    <label for="fname">Contraseña:</label><br>
+    <input type="password" id = "password"><br><br>
+
+
+    <br><label for="favcolor">Select your favorite color:</label>
+    <input type="color" id="favcolor" name="favcolor">
+
+
+
+    <br><br> <input type="submit" value="Enviar">
+    <input type="reset"> 
+    
+  </form>
 
 </body>
 </html>
